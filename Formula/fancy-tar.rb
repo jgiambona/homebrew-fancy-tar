@@ -10,7 +10,7 @@ class FancyTar < Formula
   def install
     bin.install "scripts/fancy_tar_progress.sh" => "fancy-tar"
     man1.install "docs/fancy-tar.1"
-    bash_completion.install "completions/fancy-tar.bash"
+    bash_completion.install "completions/fancy-tar.bash" => "fancy-tar"
     zsh_completion.install "completions/fancy-tar.zsh" => "_fancy-tar"
     fish_completion.install "completions/fancy-tar.fish"
   end
