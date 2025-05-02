@@ -1,8 +1,8 @@
 class FancyTar < Formula
   desc "Tar with progress, file info, encryption, and hash verification"
   homepage "https://github.com/jgiambona/fancy-tar"
-  url "https://github.com/jgiambona/fancy-tar/releases/download/v1.7.2/fancy-tar-1.7.2.tar.gz"
-  sha256 "2d1f2601a1ab4377f171b442060dc46e4dc4972004c7d332ad5eb8284148ad44"
+  url "https://github.com/jgiambona/fancy-tar/releases/download/v1.7.5/fancy-tar-1.7.5.tar.gz"
+  sha256 "315e3cd389a015b9301bf4d203d720bf929b002bf494b160d198a5e7027e571e"
   license "MIT"
 
   depends_on "pv"
